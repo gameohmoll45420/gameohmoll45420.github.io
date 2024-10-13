@@ -1,0 +1,7 @@
+import request
+from bs4 import BeautifulSoup
+
+url = "file:///C:/Users/Notebook/Desktop/portfoilo%20nest.html"
+web_data = request.get(url)
+
+soup = BeautifulSoup(web_data.text)
